@@ -36,6 +36,7 @@ const handleAddTopping = event => {
   toppingValue.value = '';
 };
 
+//submit new pizza event handler
 const handlePizzaSubmit = event => {
   event.preventDefault();
 
