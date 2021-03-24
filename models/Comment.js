@@ -24,6 +24,7 @@ const ReplySchema = new Schema(
             get: createdAtVal => dateFormat(createdAtVal)
         }
     },
+    //allow getters
     {
         toJSON: {
             getters: true
